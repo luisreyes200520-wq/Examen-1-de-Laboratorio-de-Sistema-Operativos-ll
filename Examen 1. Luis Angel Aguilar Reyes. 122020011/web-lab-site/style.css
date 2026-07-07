@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #1e2a35;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #013220, #026e40);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+nav {
+    background-color: #012918;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 22px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #009639;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.logo-img {
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #026e40;
+    margin-bottom: 10px;
+}
+
+.info-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.info-card h2 {
+    color: #026e40;
+    margin-bottom: 18px;
+    border-bottom: 3px solid #009639;
+    padding-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e2e6ea;
+}
+
+table th {
+    width: 200px;
+    color: #026e40;
+}
+
+code {
+    background-color: #eef2f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    color: #013220;
+}
+
+footer {
+    background-color: #012918;
+    color: #cdd6d2;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 4px 0;
+}

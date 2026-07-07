@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Práctico I - Docker & Nginx</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>UCENM - Universidad Cristiana Evangélica Nuevo Milenio</h1>
+            <p class="subtitle">Sistemas Operativos II · Examen Práctico I · Grupo 3</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#datos">Datos Generales</a></li>
+            <li><a href="#integrantes">Integrantes</a></li>
+            <li><a href="#actividad">Actividad</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio" class="hero">
+            <img src="https://cdn.jsdelivr.net/gh/docker-library/docs@master/nginx/logo.png" alt="Logo Nginx" class="logo-img">
+            <h2>Servidor Web con Docker + Nginx</h2>
+            <p>Contenedor desplegado como parte del Examen Práctico I</p>
+        </section>
+
+        <section id="datos" class="info-card">
+            <h2>Datos Generales</h2>
+            <table>
+                <tr>
+                    <th>Universidad</th>
+                    <td>Universidad Cristiana Evangélica Nuevo Milenio (UCENM)</td>
+                </tr>
+                <tr>
+                    <th>Asignatura</th>
+                    <td>Sistemas Operativos II</td>
+                </tr>
+                <tr>
+                    <th>Docente</th>
+                    <td>Ricardo Enrique Lagos Mendoza</td>
+                </tr>
+                <tr>
+                    <th>Fecha</th>
+                    <td>12 de julio de 2026</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="integrantes" class="info-card">
+            <h2>Integrantes del Grupo 3</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Número de Cuenta</th>
+                </tr>
+                <tr>
+                    <td>Alejandro José Molina Murillo</td>
+                    <td>222020001</td>
+                </tr>
+                <tr>
+                    <td>Luis Ángel Aguilar Reyes</td>
+                    <td>122020011</td>
+                </tr>
+                <tr>
+                    <td>Erika Michelle Sánchez Redondo</td>
+                    <td>123630108</td>
+                </tr>
+                <tr>
+                    <td>Elías David Martínez Reyes</td>
+                    <td>318390015</td>
+                </tr>
+                <tr>
+                    <td>Ana Carolina Aguilar Moreno</td>
+                    <td>122020037</td>
+                </tr>
+                <tr>
+                    <td>Darelyn Clariveth Yañez Peña</td>
+                    <td>122020041</td>
+                </tr>
+                <tr>
+                    <td>Roy Leonardo González</td>
+                    <td>122450082</td>
+                </tr>
+                <tr>
+                    <td>Héctor Neptalí Guevara</td>
+                    <td>122020053</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="actividad" class="info-card">
+            <h2>Sobre esta Práctica</h2>
+            <p>
+                Este sitio web fue publicado utilizando un contenedor <strong>Nginx</strong>
+                ejecutado en Docker, montado mediante un <strong>volumen</strong> que enlaza
+                esta carpeta local con la ruta de publicación del servidor
+                (<code>/usr/share/nginx/html</code>). Esto permite modificar el contenido
+                del sitio sin necesidad de reconstruir ni modificar directamente el contenedor.
+            </p>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <p>&copy; 2026 Sistemas Operativos II · UCENM</p>
+        <p>Docente: Ricardo Enrique Lagos Mendoza</p>
+    </footer>
+
+</body>
+</html>
